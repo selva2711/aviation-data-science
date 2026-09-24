@@ -56,6 +56,7 @@ The in operator can be used to check whether a key exists.
 
 print("aircraft" in flight)
 print("origin" in flight)
+```
 
 ### ✈️ Aviation Application
 Dictionaries are useful for representing structured flight information such as:
