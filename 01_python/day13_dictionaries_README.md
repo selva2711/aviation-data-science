@@ -10,7 +10,7 @@ Today I learned about Python Dictionaries and how they can be used to store stru
 
 A dictionary stores data in `key: value` format.
 
-# python
+```python
 flight = {
     "airline": "Qatar Airways",
     "flight_number": "QR700",
@@ -23,7 +23,6 @@ flight = {
 
 Dictionary values can be accessed using their keys.
 
-# python
 print(flight["airline"])
 print(flight["destination"])
 
@@ -31,35 +30,30 @@ print(flight["destination"])
 
 Dictionary values can be updated using the key.
 
-# python
 flight["passengers"] = 275
 
 ### 4. Adding New Key-Value Pairs
 
 New data can be added using a new key.
 
-# python
 flight["aircraft"] = "A350"
 
 ### 5. Removing Data
 
 The del keyword removes a key-value pair.
 
-# python
 del flight["origin"]
 
 ### 6. Dictionary Length
 
 The len() function returns the number of key-value pairs.
 
-# python
 print(len(flight))
 
 ### 7. Checking Keys
 
 The in operator can be used to check whether a key exists.
 
-# python
 print("aircraft" in flight)
 print("origin" in flight)
 
