@@ -6,11 +6,11 @@ Today I learned important Python Dictionary methods using aviation-related fligh
 
 ## Methods Learned
 
+```
 ### 1. `.keys()`
 
 Returns all keys from a dictionary.
 
-```python
 flight.keys()
 
 ### 2. .values()
