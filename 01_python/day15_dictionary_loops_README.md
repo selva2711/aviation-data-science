@@ -11,7 +11,7 @@ Today I learned how to use Python `for` loops to process dictionary data.
 
 A `for` loop can be used to access dictionary keys one by one.
 
-python
+```python
 for key in flight:
     print(key)
 
