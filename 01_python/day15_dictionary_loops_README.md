@@ -6,12 +6,11 @@ Today I learned how to use Python `for` loops to process dictionary data.
 
 ## Topics Learned
 
-```
+```python
 ### 1. Loop Through Dictionary Keys
 
 A `for` loop can be used to access dictionary keys one by one.
 
-```python
 for key in flight:
     print(key)
 
