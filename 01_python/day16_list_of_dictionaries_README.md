@@ -11,10 +11,9 @@ A list of dictionaries is useful for representing multiple records, such as flig
 
 ## 🔑 Key Concepts
 
-```
+```python
 ### 1. Creating a List of Dictionaries
 
-```python
 flights = [
     {
         "flight_number": "QR170",
