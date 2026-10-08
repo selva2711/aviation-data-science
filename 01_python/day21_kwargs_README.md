@@ -1,6 +1,7 @@
 # Day 21 – **kwargs in Python
 
 ## Overview
+
 Today, I learned about `**kwargs` in Python functions.
 
 ## 🧠 Topics Covered
@@ -23,7 +24,7 @@ I used `**kwargs` to work with:
 - Aircraft information
 - Flight routes
 
-## Example
+## 📖 Example
 
 ```python
 def flight_details(**details):
@@ -37,16 +38,20 @@ flight_details(
 )
 ```
 ## 🔑 Key Learning
+
 **kwargs allows a function to accept multiple keyword arguments.
 The arguments are stored as a dictionary containing key-value pairs.
 
 ## Difference Between *args and **kwargs
+
 - *args → multiple positional arguments
 - **kwargs → multiple keyword arguments
 
 ## 🚀 Progress
+
 Day 21 completed successfully.
 
 ## Conclusion
+
 Today, I learned how **kwargs can make Python functions flexible and useful for handling aviation-related information.
 
